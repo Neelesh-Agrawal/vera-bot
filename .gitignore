@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Secrets & local env (keep .env.example tracked)
+.env
+.env.local
+.env.*.local
+
+# Generated submission artifacts
+submission.jsonl
+submission.json
+
+# Logs
+*.log
+generate-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors / IDE
+.vscode/
+.idea/
+.cursor/
+*.swp
+*~
