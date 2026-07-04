@@ -17,18 +17,17 @@
     "stress-test": "tsx src/scripts/stressTest.ts",
     "judge": "python judge_simulator.py",
     "judge-replay": "python judge_simulator.py --replay-only",
-    "multi-turn": "tsx src/scripts/multiTurnReplay.ts",
-    "predeploy": "npm run build"
+    "multi-turn": "tsx src/scripts/multiTurnReplay.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.32.1",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2"
-  },
-  "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/node": "^22.5.0",
-    "tsx": "^4.19.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0"
   }
 }
